@@ -8,7 +8,7 @@ This repository does not condone the illicit distribution of copyrighted works.
 
 ```
 $ cd pound
-$ python comic-list
+$ comic-list
 
 Have list:
 5-7,9,10
@@ -20,7 +20,7 @@ Miss List:
 ## Supplying folder input
 
 ```
-$ python comic-list examples\pound
+$ comic-list examples\pound
 
 Have list:
 5-7,9,10
@@ -32,7 +32,7 @@ Miss List:
 ## Supplying start and end issue numbers
 
 ```
-$ python comic-list examples\pound -s 1 -e 11
+$ comic-list examples\pound -s 1 -e 11
 
 Have list:
 5-7,9,10
@@ -44,7 +44,7 @@ Miss List:
 ## When the first digit group in the file name is the issue number
 
 ```
-$ python comic-list examples\second_digit -s 1 -e 6 -d 2
+$ comic-list examples\second_digit -s 1 -e 6 -d 2
 
 Have list:
 5-7,9,10
@@ -56,7 +56,7 @@ Miss List:
 ## When the second digit group in the file name is the issue number
 
 ```
-$ python comic-list examples\second_digit -s 1 -e 6 -d 2
+$ comic-list examples\second_digit -s 1 -e 6 -d 2
 
 Have list:
 6
