@@ -4,7 +4,7 @@ comic-list.py - Output a list of owned/missing issues of a comic book series in 
     pip install comic-list
 
 # Description
-comic-list.py will print a list of owned and missing issue numbers given a folder which contains comic book files with issue number in the file name.
+comic-list will print a list of owned and missing issue numbers given a folder which contains comic book files with issue number in the file name.
 
 Default supported extensions are: CBZ, CBR, CB7, CBA, CBT
 
@@ -13,12 +13,9 @@ When run no arguments it will use the following defaults:
 - Get the issue number immediately succeeding the `#` symbol
 - Use the first and last issue numbers in the directory as the total range
 
-
-     python comic-list
-
 # Options     
 
-You can view the arguments by running `python comic-list --help`
+You can view the arguments by running `comic-list --help`
 
 ```
 positional arguments:
